@@ -6,9 +6,7 @@ char* welcome() {
 
 int main() {
     char ch;
-    scanf("%c", &ch); // Take a single character input
-
-    printf("ASCII value of '%c' is: %d\n", ch, ch); // Print the ASCII value
-
+    scanf("%c", &ch); 
+    printf("ASCII value of '%c' is: %d\n", ch, ch); 
     return 0;
 }
