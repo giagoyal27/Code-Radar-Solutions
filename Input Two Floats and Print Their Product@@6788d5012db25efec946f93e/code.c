@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    float a,b,result;
-    scanf("%f", &a);
-    scanf("%f", &b);
-    result = a*b;
-    printf("Product: %.2f\n", result)
+    float num1, num2, product; // Declare float variables
+
+    // Taking input
+    // printf("Enter two floating-point numbers: ");
+    scanf("%f %f", &num1, &num2);
+
+    // Calculating product
+    product = num1 * num2;
+
+    // Printing the product
+    printf("Product: %.2f\n", product);
+
     return 0;
 }
