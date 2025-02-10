@@ -2,7 +2,6 @@
 int main(){
     int marks1;
     scanf("%d", &marks1);
-
     if (marks1>=90){
         printf("A");
     }
