@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
      char c;
      scanf("%c",&c);
@@ -12,7 +11,6 @@ int main() {
      else if(c=='Y'){
         printf("Slow Down");
      }
-     
   else{
     printf("Invalid input");
   }
